@@ -23,7 +23,7 @@ end
 # flush all of configuration to conf.d/
 node['collectd_ii']['plugins'].each_pair do |plugin_key, definition|
   # Graphite auto-discovery
-  collectd_ng_plugin plugin_key.to_s do
+  collectd_ii_plugin plugin_key.to_s do
     config definition['config'].to_hash if definition['config']
     template definition['template'].to_s if definition['template']
     cookbook definition['cookbook'].to_s if definition['cookbook']
