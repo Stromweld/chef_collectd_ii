@@ -1,3 +1,4 @@
+[![Chef cookbook](https://img.shields.io/cookbook/v/collectd_ii.svg)]()
 [![Code Climate](https://codeclimate.com/github/Stromweld/collectd_ii/badges/gpa.svg)](https://codeclimate.com/github/Stromweld/collectd_ii)
 [![Issue Count](https://codeclimate.com/github/Stromweld/collectd_ii/badges/issue_count.svg)](https://codeclimate.com/github/Stromweld/collectd_ii)
 
