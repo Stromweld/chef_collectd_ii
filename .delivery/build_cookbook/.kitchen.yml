@@ -1,6 +1,8 @@
 ---
 driver:
   name: vagrant
+  box_auto_update: true
+  box_auto_prune: true
   synced_folders:
     - [<%= File.join(ENV['PWD'], '..', '..')%>, '/tmp/repo-data']
 
